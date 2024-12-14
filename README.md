@@ -143,6 +143,4 @@ text decrypted with xor: aaa
 - Ensure scripts are run with appropriate permissions.
 - Test on a Linux system for optimal compatibility.
 - Follow the provided hints and implementation details for accurate results.
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 ---
