@@ -1,0 +1,12 @@
+Method 1: Move Script to a Directory in PATH
+1- Get the location of PATH using "echo $PATH" 
+2- Copy/move the script to the PATH "sudo mv userdef /usr/local/bin" 
+3- Open a new terminal 
+4- Run the script directly using "userdef" instead of ./userdef 
+
+Method 2: Method 2: Add the Script’s Directory to PATH
+1- open .bashrc using nano
+2- At the end of the file add the following "export PATH=$PATH:home/moniem/Desktop/Linux_Administration_Project"
+3- To apply the Change Immediately use "source ~/.bashrc"
+
+In Both cases the chaneges are permanent.

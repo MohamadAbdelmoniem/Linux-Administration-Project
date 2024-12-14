@@ -1,0 +1,17 @@
+# g) Switch to the newly created user
+su - ziad
+
+# h) Display all the files inside the extracted folder recursively and with long listing format
+ls -lR /home/ziad/TestFolder
+
+# i) Change the owner of this directory recursively to be the new user (ziad)
+sudo chown -R ziad /home/ziad/TestFolder
+
+# j) Again, display all the files inside the extracted folder recursively and with long listing format
+ls -lR /home/ziad/TestFolder
+
+# k) Search for the word “file” in the extracted directory recursively
+ls -lR /home/ziad/TestFolder | grep -i "file"
+
+# l) Remove all the files ending with “.c”
+find /home/ziad/TestFolder -type f -name "*.c" -exec rm -f {} \;
