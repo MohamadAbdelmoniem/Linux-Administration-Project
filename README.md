@@ -98,8 +98,8 @@ text decrypted with xor: aaa
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone <https://github.com/MohamadAbdelmoniem/Linux-Administration-Project>
-   cd <Linux-Administration-Project>
+   git clone https://github.com/MohamadAbdelmoniem/Linux-Administration-Project
+   cd Linux-Administration-Project
    ```
 2. **Run Scripts**:
    - Navigate to `Task1` and execute the Bash scripts:
@@ -145,7 +145,4 @@ text decrypted with xor: aaa
 - Follow the provided hints and implementation details for accurate results.
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
 ---
-
-Would you like any specific customizations or additional sections for this README?
